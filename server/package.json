@@ -33,6 +33,7 @@
     "json-loader": "^0.5.4",
     "mongoose": "^4.5.2",
     "morgan": "^1.7.0",
+    "nodemon": "^1.17.5",
     "url-loader": "^0.5.7",
     "vue-bootstrap-pagination": "^1.11.0",
     "vue-hot-reload-api": "^1.2.0",
