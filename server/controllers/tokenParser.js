@@ -8,6 +8,7 @@ exports.parseToken = function (req, res, next) {
                 if (data < 1) {
                     res.json({code: 888, data: 'token错误'});
                 } else {
+                    console.log('111');
                     next();
                 }
             }

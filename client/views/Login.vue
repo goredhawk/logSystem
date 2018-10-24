@@ -2,7 +2,7 @@
     <div class="container">
         <div class="login-header"></div>
         <div class="login-logo">
-            <img src="../imgs/logo.png">
+           <h1>工作日志</h1>
         </div>
         <div class="login-container">
             <div class="login-form">

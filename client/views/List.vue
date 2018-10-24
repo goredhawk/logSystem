@@ -2,7 +2,7 @@
     <!--日志列表-->
     <div class="list-left js-log-list">
         <div class="logo" v-if="selectedUser.name == undefined">
-            <span>TopxGun工作日志 <sub>Beta</sub></span>
+            <span>工作日志 <sub>Beta</sub></span>
         </div>
 
         <!--TODO 需要修改 <br>太恶心-->

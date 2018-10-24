@@ -7,12 +7,12 @@ const bcrypt = require('bcrypt-nodejs');
 var mongoIp=require('./config').mongoIp;
 mongoose.connect('mongodb://'+mongoIp+'/workbook');
 function initUser(){
-    var userObj=new User({name:'admin',email:'1003512331@qq.com'});
+    var userObj=new User({name:'admin',email:'admin'});
     bcrypt.genSalt(10,function(err,salt){
         if(err){
             console.log(err);
         }else{
-            bcrypt.hash('topxgun123',salt,null,function(err,hash){
+            bcrypt.hash('123',salt,null,function(err,hash){
                 if(err){
                     console.log(err);
                 }else{

@@ -29,7 +29,9 @@
         },
         methods: {
             managerLogin(){
+              console.log('123');
                 loginService.login(this,this.user,(data)=>{
+                  console.log('234');
                     sessionStorage.setItem('user',data);
                         this.$router.go('list');
                 })
